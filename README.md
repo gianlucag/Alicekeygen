@@ -16,12 +16,12 @@ $ ./alicekeygen -s Alice-12345678 -m 00:23:8E:01:02:03 -q agpf_config.txt
 
 ###Modo dizionario###
 
-Il tool genera un file dizionario da passare a programmi esterni di bruteforcing quali  [aircrack-ng](http://aircrack-ng.org/) o [http://code.google.com/p/pyrit/ pyrit] per recuperare la chiave WPA corretta. Una vasta gamma di opzioni permettono di raffinare il dizionario e ridurne le dimensioni.
+Il tool genera un file dizionario da passare a programmi esterni di bruteforcing quali  [aircrack-ng](http://aircrack-ng.org/) o [pyrit](http://code.google.com/p/pyrit/) per recuperare la chiave WPA corretta. Una vasta gamma di opzioni permettono di raffinare il dizionario e ridurne le dimensioni.
 Il tempo necessario al recupero della chiave dipende ovviamente dalla velocità della macchina (CPU, estensioni CUDA, etc..) e dalla dimensione del dizionario. Per alcune stime sui tempi massimi di recupero della chiave si veda la sezione "casi d'uso modalità dizionario". I programmi esterni di bruteforcing, per poter funzionare correttamente, necessitano del file 4-way-handshake.
 
 In questa modalità il recupero della chiave è pressochè *garantito*.
 
-Come si recupera il 4-way-handshake nei pacchetti EAPOL? Ecco un'ottima [http://aircrack-ng.org/doku.php?id#cracking_wpa guida].
+Come si recupera il 4-way-handshake nei pacchetti EAPOL? Ecco un'ottima [guida](http://aircrack-ng.org/doku.php?id#cracking_wpa).
 
 Alcuni esempi:
 
@@ -61,11 +61,7 @@ Nell'esempio si verfica che la chiave wpa 1234abcd1234abcd1234abcd sia presente 
 
 # News #
 
-Aggiunta versione 0.3 per WindowsXP, Vista, Windows7, Linux allversion, MacOSX [http://code.google.com/p/alicekeygen/downloads download]
-
-#Download#
-
-Le release vengono pubblicate nella [http://code.google.com/p/alicekeygen/downloads sezione download]
+Aggiunta versione 0.3 per WindowsXP, Vista, Windows7, Linux allversion, MacOSX
 
 #Compilazione#
 
@@ -92,7 +88,7 @@ Nessuna compilazione richiesta. Nella sezione download è presente l'applicazion
 
 ###MacOSX###
 
-Occorre scaricare ed installare il pacchetto [http://developer.apple.com/xcode/ XCode]. La procedura è identica a quella per Linux.
+Occorre scaricare ed installare il pacchetto [XCode](http://developer.apple.com/xcode/). La procedura è identica a quella per Linux.
 
 #Casi d'uso in modo dizionario#
 
@@ -128,28 +124,28 @@ In questo caso i numero delle chiavi scende quasi di un ordine di grandezza, med
 
 #Links#
 
-[http://www.gianlucaghettini.net Pagina blog del progetto]
+[Pagina blog del progetto](http://www.gianlucaghettini.net) 
 
-[http://wifiresearchers.wordpress.com/2010/06/02/alice-agpf-lalgoritmo/ White Hats Crew: Algoritmo per router Alice AGPF]
+[White Hats Crew: Algoritmo per router Alice AGPF](http://wifiresearchers.wordpress.com/2010/06/02/alice-agpf-lalgoritmo/)
 
-[http://aircrack-ng.org/doku.php?id#cracking_wpa Aircrack-ng: tutorial WPA cracking]
+[Aircrack-ng: tutorial WPA cracking](http://aircrack-ng.org/doku.php?id#cracking_wpa)
 
-[http://aircrack-ng.org/ Aircrack homepage]
+[Aircrack homepage](http://aircrack-ng.org/) 
 
-[http://code.google.com/p/pyrit/ Pyrit homepage]
+[Pyrit homepage](http://code.google.com/p/pyrit/)
 
 #Come contribuire#
 
-Per idee, suggerimenti, nuove opzioni o per collaborare al miglioramento del tool ecco la [http://www.gianlucaghettini.net/alicekeygen-generatore-wordlist-wpawpa2-psk-alice-telecom pagina] del blog:
+Per idee, suggerimenti, nuove opzioni o per collaborare al miglioramento del tool ecco la [pagina](http://www.gianlucaghettini.net/alicekeygen-generatore-wordlist-wpawpa2-psk-alice-telecom) del blog:
 
 
 #Note#
 
-Per maggiori informazioni sul funzionamento del sistema di sicurezza WPA dei router wifi Alice Telecom AGPF si veda [http://wifiresearchers.wordpress.com/2010/06/02/alice-agpf-lalgoritmo questo link].
+Per maggiori informazioni sul funzionamento del sistema di sicurezza WPA dei router wifi Alice Telecom AGPF si veda [questo link](http://wifiresearchers.wordpress.com/2010/06/02/alice-agpf-lalgoritmo).
 
 
 #Crediti#
 
-Il tool si basa sul risultati ottenuti dalla White Hat Crew alla quale vanno i ringraziamenti per l'ottimo [http://wifiresearchers.wordpress.com/2010/06/02/alice-agpf-lalgoritmo lavoro].
+Il tool si basa sul risultati ottenuti dalla White Hat Crew alla quale vanno i ringraziamenti per l'ottimo [lavoro](http://wifiresearchers.wordpress.com/2010/06/02/alice-agpf-lalgoritmo).
 
 
