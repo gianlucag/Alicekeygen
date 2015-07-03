@@ -16,7 +16,7 @@ $ ./alicekeygen -s Alice-12345678 -m 00:23:8E:01:02:03 -q agpf_config.txt
 
 ###Modo dizionario###
 
-Il tool genera un file dizionario da passare a programmi esterni di bruteforcing quali [http://aircrack-ng.org/ aircrack-ng] o [http://code.google.com/p/pyrit/ pyrit] per recuperare la chiave WPA corretta. Una vasta gamma di opzioni permettono di raffinare il dizionario e ridurne le dimensioni.
+Il tool genera un file dizionario da passare a programmi esterni di bruteforcing quali  [aircrack-ng](http://aircrack-ng.org/) o [http://code.google.com/p/pyrit/ pyrit] per recuperare la chiave WPA corretta. Una vasta gamma di opzioni permettono di raffinare il dizionario e ridurne le dimensioni.
 Il tempo necessario al recupero della chiave dipende ovviamente dalla velocità della macchina (CPU, estensioni CUDA, etc..) e dalla dimensione del dizionario. Per alcune stime sui tempi massimi di recupero della chiave si veda la sezione "casi d'uso modalità dizionario". I programmi esterni di bruteforcing, per poter funzionare correttamente, necessitano del file 4-way-handshake.
 
 In questa modalità il recupero della chiave è pressochè *garantito*.
