@@ -110,7 +110,7 @@ Parametri noti:
   * SSID della rete Alice
   * MAC address wifi
 
-Alicekyegen genera mediamente 32x10^6^ chiavi WPA. Tempo massimo di recupero della chiave: 32x10^6^ / 1500 # 21332 sec. #> 6 ore circa. 
+Alicekyegen genera mediamente 32x10^6^ chiavi WPA. Tempo massimo di recupero della chiave: 32x10^6 / 1500 = 21332 sec. = 6 ore circa. 
 
 ##Scenario 2##
 
@@ -120,7 +120,7 @@ Parametri noti:
   * MAC address wifi
   * Serie del router
 
-In questo caso i numero delle chiavi scende quasi di un ordine di grandezza, mediamente 4x10^6^. Tempo massimo di recupero della chiave: 4x10^6^ / 1500  # 2666 sec. #> 40 minuti circa. 
+In questo caso i numero delle chiavi scende quasi di un ordine di grandezza, mediamente 4x10^6^. Tempo massimo di recupero della chiave: 4x10^6 / 1500  = 2666 sec. = 40 minuti circa. 
 
 #Links#
 
