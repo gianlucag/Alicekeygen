@@ -1,0 +1,19 @@
+Versione 0.3 - 09/09/2011
+
+- migliorato controllo di generazione del file dizionario
+- aggiunto splitting del file dizionario in base alla serie (opzione -x)
+- implementata opzione -u
+- risolto bug su gestione buffer I/O
+- aggiunto modo istantaneo con file config esterno
+
+Versione 0.21 - 19/08/2011
+
+- migliorati i check sull'SSID immesso
+- aggiornato lo usage text 
+
+Versione 0.2 - 06/04/2011
+
+- aggiunti altri MAC vendor
+- modificato un MAC vendor
+
+Versione 0.1 - 29/03/2011
