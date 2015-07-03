@@ -10,9 +10,9 @@ Il tool prevede tre modalità di funzionamento:
 
 Il tool genera immediatamente una lista di wpa candidate da provare. Occorre specificare l'SSID di rete, il mac address wifi della stessa rete e il file config aggiornato (incluso nel pacchetto).
 
-{{{
+```
 $ ./alicekeygen -s Alice-12345678 -m 00:23:8E:01:02:03 -q agpf_config.txt
-}}}
+```
 
 ###Modo dizionario###
 
@@ -25,27 +25,27 @@ Come si recupera il 4-way-handshake nei pacchetti EAPOL? Ecco un'ottima [http://
 
 Alcuni esempi:
 
-{{{
+```
 $ ./alicekeygen -s Alice-12345678 -m 00:23:8E:01:02:03 -o dict.txt
-}}}
+```
 
 Genera il dizionario dict.txt per la rete SSID Alice-12345678 e MAC wifi 00:23:8E:01:02:03
 
-{{{
+```
 $ ./alicekeygen -s Alice-12345678 -m 00:23:8E:01:02:03 -e 69102 -o dict.txt
-}}}
+```
 
 Genera il dizionario dict.txt per la rete SSID Alice-12345678, MAC wifi 00:23:8E:01:02:03 e serie 69102
 
-{{{
+```
 $ ./alicekeygen -s Alice-12345678 -m 00:23:8E:01:02:03 -sl 16384 -e 67903 -o dict.txt
-}}}
+```
 
 Genera il dizionario dict.txt per la rete SSID Alice-12345678, MAC wifi 00:23:8E:01:02:03, serie 67903 e serial number maggiore o uguale a 16384.
 
-{{{
+```
 $ ./alicekeygen -s Alice-12345678 -m 00:23:8E:01:02:03 -sh 30000 -e 67903 -o dict.txt
-}}}
+```
 
 Genera il dizionario dict.txt per la rete SSID Alice-12345678, MAC wifi 00:23:8E:01:02:03, serie 67903 e serial number minore o uguale a 30000.
 
@@ -53,9 +53,9 @@ Genera il dizionario dict.txt per la rete SSID Alice-12345678, MAC wifi 00:23:8E
 
 Permette 1) di verificare che una data chiave wpa venga effettivamente generata da alicekeygen e 2) recuperare i dati associati a quella chiave (serie e seriale del router alice)
 
-{{{
+```
 $ ./alicekeygen -s Alice-12345678 -m 00:23:8E:01:02:03 -w 1234abcd1234abcd1234abcd
-}}}
+```
 
 Nell'esempio si verfica che la chiave wpa 1234abcd1234abcd1234abcd sia presente nel dizionario generato da rete SSID Alice-12345678, MAC wifi 00:23:8E:01:02:03.
 
@@ -75,16 +75,16 @@ Il tool è scritto interamente in C e compila sotto Linux (qualsiasi versione), 
 
 Per compilare sotto Linux occorre dare i seguenti comandi da console:
 
-{{{
+```
 $ gcc alicekeygen.c sha256.c -w -o alicekeygen
 $ chmod +x alicekeygen
-}}}
+```
 
 ed eseguire con:
 
-{{{
+```
 $ ./alicekeygen
-}}}
+```
 
 ###Windows###
 
