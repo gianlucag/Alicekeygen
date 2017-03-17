@@ -10,7 +10,7 @@
 #include "sha256.h"
 
 #define MJR_VER 0
-#define MIN_VER 3
+#define MIN_VER 4
 
 #define SERIESXSERIAL_SIZE 13
 #define MAX_NUM_MAC 16
