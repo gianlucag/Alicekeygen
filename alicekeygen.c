@@ -3,7 +3,7 @@
  *
  *  Copyright (C) 2011 Gianluca Ghettini
  *  gianluca.ghettini@gmail.com
- *  http://www.gianlucaghettini.org
+ *  http://www.gianlucaghettini.net
  *
  *  Algoritmo AGPF originario: White Hat Crew (http://wifiresearchers.wordpress.com)
  *  Codice SHA-256 di Christophe Devine (http://www.aircrack-ng.org)
@@ -32,7 +32,7 @@ char usageText[] =
 "  AliceKeygen ver %d.%d - (C) 2011 Gianluca Ghettini\n"
 "  Password recovery tool per router Alice Telecom AGPF\n\n"
 "  gianluca.ghettini@gmail.com\n"
-"  http://www.gianlucaghettini.org\n"
+"  http://www.gianlucaghettini.net\n"
 "\n"
 "  Utilizzo modo dizionario: alicekeygen -s <ssid> -m <macwifi> -o <file> [opt]\n"
 "           modo ricerca:    alicekeygen -s <ssid> -m <macwifi> -w <wpa>  [opt]\n"
